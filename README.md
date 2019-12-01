@@ -1,0 +1,1 @@
+# wSpMessage_-OnlyDesign
