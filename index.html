@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Aplicación para enviar mensajes a través de WhatsApp sin necesidad de agragar contactos a la agenda. Si quieres contactar con alguien y no quieres almacenar su nº en la agenda, está es tu app">
+    <meta name="author" content="Angel.Mascorro">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/whatsapp.css">
+
+    <style type="text/css">
+    	.bd-placeholder-img{
+    		font-size: 1.125rem;
+    		text-anchor: middle;
+    		-webkit-user-select: none;
+    		-moz-user-select: none;
+    		-ms-user-select: none;
+    		user-select: none;
+    	}
+
+    	#btn-enviar{
+    		background-color: #01E675;
+    		color: #fff;
+    	}
+
+    	@media(min-width: 768px){
+    		.bd-placeholder-img-lg{
+    			font-size: 3.5rem;
+    		}
+    	}
+    </style>
+
+        <title>Enviar WhatsApp</title> 
+        <!-- Favicon -->
+        <link href="img/favicon-web.png" rel="shortcut icon" type="image/png">
+</head>
+<body>
+
+	<form class="form-signin">
+		<div class="text-center mb-4">
+			<img src="img/WhatsApp.svg" alt="WhatsAppLogo" class="mb-4" height="72" width="72">
+			<h1 class="h3 mb-3 font-weight-normal">Mantén conversacion en WhatsApp sin necesidad de agregar contactos a la agenda de tu telefono.</h1>
+			<p>Aplicación para mandar mensajes de WhatsApp sin necesidad de agregar contactos a la agenda.</p>
+		</div>
+		<div class="form-label-group">
+			<input type="tel" class="form-control" id="numero" placeholder="N° de telefono" autofocus="" required=""><label for="numero">N° de teléfono</label>
+		</div>
+		<button class="btn btn-lg btn-block" type="submit" id="btn-enviar" onclick="abrirLink()">Enviar Mensaje</button>
+		<p class="mt-5 mb-3 text-muted text-center">&copy; 2019 | v.0.0.1</p>
+	</form>	
+
+	<!-- JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
